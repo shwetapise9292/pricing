@@ -1,0 +1,120 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.card1 {
+  height: 400px;
+  width: 310px;
+  box-sizing: border-box;
+  border: 2px solid rgb(235, 229, 229);
+  box-shadow: 5px 5px 2px -1px rgb(82, 80, 80);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 150px;
+  margin-left: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.title {
+  height: 65px;
+  background-color: darkcyan;
+  margin-top: 0;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 1px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  margin-left: 115px;
+}
+
+.content ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.check-icon {
+  color: darkcyan;
+  font-weight: lighter;
+}
+
+.cross-icon {
+  color: red;
+  font-weight: lighter;
+}
+
+.price {
+  text-align: center;
+  font-weight: bolder;
+  /* margin-top: 5px; */
+  font-size: 30px;
+}
+
+.button button {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.card2 {
+  height: 400px;
+  width: 310px;
+  box-sizing: border-box;
+  border: 2px solid rgb(235, 229, 229);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px -1px rgb(82, 80, 80);
+  overflow: hidden;
+  margin-top: 100px;
+  margin-left: 5px;
+  float: left;
+  margin-right: 60px;
+}
+
+.card2 .title {
+  background-color: brown;
+}
+
+.card2 .title p {
+  margin-left: 90px;
+}
+
+.card3 {
+  height: 400px;
+  width: 310px;
+  box-sizing: border-box;
+  border: 2px solid rgb(235, 229, 229);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px -1px rgb(82, 80, 80);
+  overflow: hidden;
+  margin-top: 150px;
+  margin-left: -4px;
+}
+
+.card3 .title {
+  background-color: darkcyan;
+}
+
+.card3 .title p {
+  margin-left: 90px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
